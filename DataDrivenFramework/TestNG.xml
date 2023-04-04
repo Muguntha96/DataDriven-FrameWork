@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+	<test name="Login Test">
+		<classes>
+			<class name="org.swaglabs.LoginTestCase" />
+
+		</classes>
+
+
+	</test>
+	<test name="Login Test1">
+		<classes>
+			<class name="org.orangeHrm.LoginProvider" />
+
+		</classes>
+
+
+	</test>
+	<test name="Login Test2">
+		<classes>
+			<class name="org.petstore.PetStore" />
+
+		</classes>
+
+
+	</test>
+</suite>
